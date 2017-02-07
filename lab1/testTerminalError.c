@@ -7,7 +7,7 @@
 #include "../include/terminals.h"
 
 
-char string[];
+char string[4];
 int length = 4;
 
 char string1[] = "abcdefghijklmnopqrstuvwxyz\n";

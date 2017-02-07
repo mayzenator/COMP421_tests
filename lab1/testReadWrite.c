@@ -8,7 +8,7 @@
 
 void reader(void *);
 
-char string[];
+char string[5];
 int length = 5;
 
 void writer1(void *);

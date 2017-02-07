@@ -9,7 +9,7 @@
 
 void reader(void *);
 
-char string[];
+char string[4];
 int length = 4;
 
 

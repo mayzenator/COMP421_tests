@@ -30,11 +30,9 @@ int main(int argc, char **argv)
 void
 writer(void *arg)
 {
-    int status;
-
     printf("Doing WriteTerminal... '");
     fflush(stdout);
-    status = WriteTerminal(1, string, length);
+    WriteTerminal(1, string, length);
     printf("'. Done: status = %d.\n", length);
     fflush(stdout);
 }

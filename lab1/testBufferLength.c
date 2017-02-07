@@ -18,7 +18,7 @@
 void reader(void *);
 
 //char string[] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-char string[];
+char string[10];
 int length = 10;
 //int length = sizeof(string) - 1;
 

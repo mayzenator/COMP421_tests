@@ -6,7 +6,7 @@
 #include <terminals.h>
 #include "../include/terminals.h"
 
-char string[];
+char string[1];
 
 int
 main(int argc, char **argv)
