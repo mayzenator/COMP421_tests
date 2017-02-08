@@ -7,6 +7,7 @@
 #include <threads.h>
 #include <terminals.h>
 #include <hardware.h>
+#include <unistd.h>
 
 void writer(void *);
 void writer2(void *);
@@ -25,7 +26,7 @@ int main(int argc, char **argv)
     if (argc > 1) HardwareOutputSpeed(1, atoi(argv[1]));
     if (argc > 2) HardwareInputSpeed(1, atoi(argv[2]));
 
-    printf("Begin typing stuff\n");
+    printf("Begin typing stuff in terminal 1 to be read in by readterminal\n");
     sleep(10);
     printf("Begin reading and writing\n");
     ThreadCreate(writer4, NULL);

@@ -1,4 +1,4 @@
-// Tests parallel reads to different terminals. They should not overlap.
+// Tests parallel reads to the same terminal. They should not overlap.
 // Also check to make sure if you "take" a newline in a previous readterminal, that future readterminals
 // acknowledge that there is one less newline in the input buffer.
 
